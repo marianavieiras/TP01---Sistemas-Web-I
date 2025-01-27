@@ -36,7 +36,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Disponibilidade.
 
-### Carrinho de Aluguel:
+### Carrinho de Aluguel:
 
 * Adição e remoção de equipamentos e planos;
 
