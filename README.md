@@ -4,23 +4,23 @@
 
 <!-- Descrever um resumo sobre o trabalho. -->
 
-### **Resumo**
+## **Resumo**
 
 Este trabalho propõe o desenvolvimento de um sistema para o aluguel de aparelhos de musculação, direcionado a academias, personal trainers e empresas que oferecem locação de equipamentos para clientes diversos, incluindo academias caseiras, eventos fitness e espaços temporários. O sistema proporcionará uma experiência eficiente e automatizada, permitindo que os usuários escolham entre planos de aluguel ou opções individuais de equipamentos. 
 
-### **1. Tema**
+## **1. Tema**
 
 O projeto se concentra no desenvolvimento de um sistema digital para gestão de aluguel de equipamentos fitness, oferecendo praticidade e automação desde a seleção dos aparelhos até a finalização do contrato e entrega.
 
-### **2. Escopo**
+## **2. Escopo**
 
-# As principais funcionalidades do sistema incluem:
+### As principais funcionalidades do sistema incluem:
 
 * Catálogo de Equipamentos e Planos;
 
 * Aluguel individual para personalização da seleção de equipamentos;
 
-# Disponibilidade de planos pré-configurados por:
+### Disponibilidade de planos pré-configurados por:
 
 * Tipo de treino;
 
@@ -28,7 +28,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Duração do aluguel;
 
-# Filtros avançados por:
+### Filtros avançados por:
 
 * Preço;
 
@@ -42,7 +42,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Resumo detalhado do pedido.
 
-# Cadastro e Gestão de Usuário:
+### Cadastro e Gestão de Usuário:
 
 * Registro com nome, CPF, endereço, telefone e e-mail;
 
@@ -50,15 +50,15 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Histórico de pedidos e gestão de contratos.
 
-# Meios de Pagamento:
+### Meios de Pagamento:
 
 * Suporte a múltiplos métodos de pagamento.
 
-# Assinatura Digital de Contrato
+### Assinatura Digital de Contrato
 
 * Geração automática de contratos personalizados com base no pedido.
 
-### 3. Restrições
+## 3. Restrições
 
 * Equipamentos e Meios de Pagamento: O sistema será limitado a um número reduzido de equipamentos e métodos de pagamento (cartões de crédito/débito e transferências bancárias).
 
@@ -70,7 +70,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Cadastro de Equipamentos: Apenas administradores poderão cadastrar novos equipamento
 
-### 4. Protótipo
+## 4. Protótipo
 
  Os protótipos das principais telas do sistema foram desenvolvidos:
 
