@@ -36,7 +36,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Disponibilidade.
 
-# Carrinho de Aluguel:
+### Carrinho de Aluguel:
 
 * Adição e remoção de equipamentos e planos;
 
@@ -82,7 +82,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 4- Cadastro e login de usuário;
 
-5- Página de pagamento e assinatura do contrato.
+5- Página de pagamento e assinatura do contrato;
 
-📦 Painel de acompanhamento do pedido.
+6- Painel de acompanhamento do pedido.
 
