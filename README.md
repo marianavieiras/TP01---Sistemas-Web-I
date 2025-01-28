@@ -88,22 +88,22 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 2- Carrinho de aluguel e pagamento;
 
 <p align="center">
- <img src="Carrinho/7.png" alt="Carrinho de aluguel" width="300">
- <img src="Pagamento/8.png" alt="Pagamento" width="300">
+ <img src="Prototipo/7.png" alt="Carrinho de aluguel" width="300">
+ <img src="Prototipo/8.png" alt="Pagamento" width="300">
 </p>
 
 4- Cadastro e login de usuário;
 
 <p align="center">
- <img src="Login/10.png" alt="Login de Usuario" width="300">
- <img src="Cadastro/11.png" alt="Cadastro de Usuario" width="300">
+ <img src="Prototipo/10.png" alt="Login de Usuario" width="300">
+ <img src="Prototipo/11.png" alt="Cadastro de Usuario" width="300">
 </p>
 
-5- Página de assinatura do contrato e finalização do aluguel.]
+5- Página de assinatura do contrato e finalização do aluguel.
 
 <p align="center">
- <img src="Contrato/9.png" alt="Assinatura de Contrato" width="300">
- <img src="Final/12.png" alt="finalização do Pedido" width="300">
+ <img src="Prototipo/9.png" alt="Assinatura de Contrato" width="300">
+ <img src="Prototipo/12.png" alt="finalização do Pedido" width="300">
 </p>
 
 
