@@ -74,15 +74,36 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
  Os protótipos das principais telas do sistema foram desenvolvidos:
 
-1- Página inicial com apresentação dos planos e equipamentos;
+1- Página inicial, apresentação dos planos, equipamentos e informações sobre a empresa;
 
-2- Catálogo de equipamentos;
+<p align="center">
+  <img src="Prototipo/1.png" alt="Tela Inicial" width="300">
+  <img src="Prototipo/2.png" alt="Equipamentos" width="300">
+  <img src="Prototipo/3.png" alt="Plano 1" width="300">
+  <img src="Prototipo/4.png" alt="Plano 2" width="300">
+  <img src="Prototipo/5.png" alt="Plano 3" width="300">
+  <img src="Prototipo/6.png" alt="Sobre a empresa" width="300">
+</p>
 
-3- Carrinho de aluguel;
+2- Carrinho de aluguel e pagamento;
+
+<p align="center">
+ <img src="Prototipo/7.png" alt="Carrinho de aluguel" width="300">
+ <img src="Prototipo/8.png" alt="Pagamento" width="300">
+</p>
 
 4- Cadastro e login de usuário;
 
-5- Página de pagamento e assinatura do contrato;
+<p align="center">
+ <img src="Prototipo/10.png" alt="Login de Usuario" width="300">
+ <img src="Prototipo/11.png" alt="Cadastro de Usuario" width="300">
+</p>
 
-6- Painel de acompanhamento do pedido.
+5- Página de assinatura do contrato e finalização do aluguel.
+
+<p align="center">
+ <img src="Prototipo/9.png" alt="Assinatura de Contrato" width="300">
+ <img src="Prototipo/12.png" alt="finalização do Pedido" width="300">
+</p>
+
 
