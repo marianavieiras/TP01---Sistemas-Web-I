@@ -28,14 +28,6 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Duração do aluguel;
 
-### Filtros avançados por:
-
-* Preço;
-
-* Estado do equipamento;
-
-* Disponibilidade.
-
 ### Carrinho de Aluguel:
 
 * Adição e remoção de equipamentos e planos;
