@@ -34,7 +34,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Resumo detalhado do pedido.
 
-### Cadastro e Gestão de Usuário:
+### Cadastro e Login de Usuário:
 
 * Registro com nome, CPF, endereço, telefone e e-mail;
 
@@ -46,7 +46,7 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
 
 * Suporte a múltiplos métodos de pagamento.
 
-### Assinatura Digital de Contrato
+### Assinatura Digital de Contrato:
 
 * Geração automática de contratos personalizados com base no pedido.
 
