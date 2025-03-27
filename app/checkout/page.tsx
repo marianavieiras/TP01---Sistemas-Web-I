@@ -229,7 +229,6 @@ export default function CheckoutPage() {
         observacoes: orderNotes,
       }
 
-
       // Limpar o carrinho após criar o pedido
       await carrinhoAPI.clear()
       alert("Pedido finalizado com sucesso!")
