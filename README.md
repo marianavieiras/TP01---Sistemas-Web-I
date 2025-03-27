@@ -1,6 +1,6 @@
-# **CSI606-2024-02 - Remoto - Proposta de Trabalho Final**
+# **Trabalho Final - Engenharia de Software II**
 
-## *Discente: Mariana Vieira*
+## *Discente: Samuell Aguiar e Mariana Vieira*
 
 <!-- Descrever um resumo sobre o trabalho. -->
 
