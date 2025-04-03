@@ -210,14 +210,6 @@ export default function SobrePage() {
           <Button size="lg" variant="secondary" asChild>
             <Link href="/equipamentos">Ver Equipamentos</Link>
           </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground/10"
-            asChild
-          >
-            <Link href="/contato">Fale Conosco</Link>
-          </Button>
         </div>
       </div>
     </div>
