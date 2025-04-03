@@ -13,32 +13,28 @@ const mockEquipamentos = [
   {
     id: 1,
     nome: "Esteira Profissional",
-    imagem: "/placeholder.svg?height=300&width=300",
-    precoDiario: 29.99,
+    imagem: "https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114175.jpg?t=st=1743709815~exp=1743713415~hmac=6b236ffc0e9330741ae8ddf5a502098931eed68b530c3dab43b904b26b42ae2e&w=740",
     precoMensal: 299.99,
     categoria: "Cardio",
   },
   {
     id: 2,
     nome: "Bicicleta Ergométrica",
-    imagem: "/placeholder.svg?height=300&width=300",
-    precoDiario: 19.99,
+    imagem: "https://images-na.ssl-images-amazon.com/images/I/61pOXHTtORL.jpg",
     precoMensal: 199.99,
     categoria: "Cardio",
   },
   {
     id: 3,
     nome: "Conjunto de Halteres",
-    imagem: "/placeholder.svg?height=300&width=300",
-    precoDiario: 14.99,
+    imagem: "https://img.freepik.com/premium-photo/gym-dumbbell-rack-stand-weightlifting-gym-equipment_92242-6505.jpg?w=740",
     precoMensal: 149.99,
     categoria: "Musculação",
   },
   {
     id: 4,
     nome: "Banco Multifuncional",
-    imagem: "/placeholder.svg?height=300&width=300",
-    precoDiario: 12.99,
+    imagem: "https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114151.jpg?t=st=1743709293~exp=1743712893~hmac=09ddf40dfa0df4a7ffb4718704458fa40fe7f2be7687a28ce1ec26b8e3bd9de9&w=1380",
     precoMensal: 129.99,
     categoria: "Musculação",
   },
@@ -117,7 +113,7 @@ export default function HomePage() {
                 <div key={equipment.id} className="group relative">
                   <div className="aspect-square overflow-hidden rounded-lg bg-card">
                     <Image
-                      src={equipment.imagem || "/placeholder.svg"}
+                      src={equipment.imagem }
                       alt={equipment.nome}
                       width={300}
                       height={300}
@@ -151,14 +147,14 @@ export default function HomePage() {
                     <h3 className="font-medium">{equipment.nome}</h3>
                     <div className="flex justify-center gap-4 mt-1">
                       <span className="text-sm">
-                        <span className="font-medium text-primary">R${equipment.precoDiario.toFixed(2)}</span>/dia
+                        <span className="font-medium text-primary">R${equipment.precoMensal.toFixed(2)}</span>/mês
                       </span>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
-
+            
             <div className="mt-10 text-center">
               <Button asChild>
                 <Link href="/equipamentos">Ver Todos os Equipamentos</Link>
@@ -185,4 +181,3 @@ export default function HomePage() {
     </div>
   )
 }
-
