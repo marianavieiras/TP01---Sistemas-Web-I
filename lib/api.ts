@@ -1,5 +1,5 @@
 // URL base da API - Configurada através da variável de ambiente NEXT_PUBLIC_API_URL
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:808"
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"
 
 /**
  * Função auxiliar para lidar com erros de fetch
