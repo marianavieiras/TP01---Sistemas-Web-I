@@ -37,7 +37,7 @@ export default function SobrePage() {
           </p>
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-          <Image src="/placeholder.svg?height=400&width=600" alt="Equipe FitRent" fill className="object-cover" />
+          <Image src="https://img.freepik.com/free-photo/people-working-out-indoors-together-with-dumbbells_23-2149175410.jpg?t=st=1743710487~exp=1743714087~hmac=082f0721a09160f794333eb394439b1fa22dd8467c25b8ffe3026bab61e571a9&w=1380" alt="Equipe FitRent" fill className="object-cover" />
         </div>
       </div>
 
@@ -108,14 +108,14 @@ export default function SobrePage() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { nome: "Carlos Silva", cargo: "Fundador & CEO", imagem: "/placeholder.svg?height=300&width=300" },
-            { nome: "Ana Oliveira", cargo: "Diretora de Operações", imagem: "/placeholder.svg?height=300&width=300" },
+            { nome: "Carlos Silva", cargo: "Fundador & CEO", imagem: "https://img.freepik.com/free-photo/strong-athletic-man-holding-weights_23-2148398772.jpg?t=st=1743711201~exp=1743714801~hmac=edd5774bf8e7e22e39de0bca72887e85272c9cd757ff425efe304b142049f1fd&w=826" },
+            { nome: "Ana Oliveira", cargo: "Diretora de Operações", imagem: "https://img.freepik.com/free-photo/headshot-beautiful-dark-skinned-curly-has-pleased-expression-rejoices-success-enjoys-spare-time-wears-casual-t-shirt-isolated-yellow-wall-people-positive-emotions-feelings-concept_273609-27729.jpg?t=st=1743711727~exp=1743715327~hmac=8767744dde8e6b7562af962e942b096242c3df9d424f0f72d3a0e6b31a901904&w=1380" },
             {
               nome: "Ricardo Santos",
               cargo: "Especialista em Equipamentos",
-              imagem: "/placeholder.svg?height=300&width=300",
+              imagem: "https://img.freepik.com/free-photo/guy-yellow-t-shirt-posing-camera_140725-7947.jpg?t=st=1743712033~exp=1743715633~hmac=be512fec5088329a61b22b37d18668da7ba610625f4200553588a9c3e118d723&w=740",
             },
-            { nome: "Juliana Costa", cargo: "Experiência do Cliente", imagem: "/placeholder.svg?height=300&width=300" },
+            { nome: "Juliana Costa", cargo: "Experiência do Cliente", imagem: "https://img.freepik.com/free-photo/woman-with-arms-crossed-laughing_23-2148666473.jpg?t=st=1743711280~exp=1743714880~hmac=c34835ee2f980c6fcc2066a777ff363c78e10f7cd3974d7387a9fa870d46fbcb&w=826" },
           ].map((membro, index) => (
             <div key={index} className="bg-card rounded-lg border overflow-hidden">
               <div className="relative h-64 w-full">
