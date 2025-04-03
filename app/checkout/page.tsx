@@ -229,6 +229,9 @@ export default function CheckoutPage() {
         observacoes: orderNotes,
       }
 
+      // Enviar o pedido para o backend
+      //const novoPedido = await createPedido(pedido)
+
       // Limpar o carrinho após criar o pedido
       await carrinhoAPI.clear()
       alert("Pedido finalizado com sucesso!")
@@ -602,7 +605,7 @@ export default function CheckoutPage() {
                                   <h4 className="text-sm font-medium">{item.nome || "Produto"}</h4>
                                   <p className="text-xs text-muted-foreground">
                                     {item.quantidade || 1}x {item.periodo || "diário"} - R$
-                                    {item.preco?.toFixed(2) || "0.00"}
+                                    {item.preco?.toFixed(2) }
                                     /un
                                   </p>
                                 </div>
@@ -672,4 +675,3 @@ export default function CheckoutPage() {
     </AuthGuard>
   )
 }
-
