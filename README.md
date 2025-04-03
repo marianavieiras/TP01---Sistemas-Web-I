@@ -85,3 +85,65 @@ O projeto se concentra no desenvolvimento de um sistema digital para gestão de 
  <img src="Prototipo/10.png" alt="Login de Usuario" width="300">
  <img src="Prototipo/11.png" alt="Cadastro de Usuario" width="300">
 </p>
+
+# FitMove - Guia de Instalação
+
+A FitMove é composta por um **frontend** desenvolvido em **React/Next.js** e um **backend** baseado em **Spring Boot**. O código-fonte da aplicação pode ser acessado no GitHub:  
+[FitMove - GitHub](https://github.com/SamuellAguiar/Trab_Engenharia_Sof_II).
+
+## Pré-requisitos
+
+Antes de iniciar a instalação, certifique-se de ter os seguintes requisitos instalados:
+
+- **Node.js** (v16 ou superior)
+- **Java** (JDK 17 ou superior)
+- **Maven** (para compilar o projeto Spring Boot)
+- **MySQL** (v8.0 ou superior)
+
+## Configurar o Banco de Dados
+
+1. Certifique-se de que o MySQL está instalado e em execução.
+2. Crie um banco de dados chamado `fitmovedb` (opcional, pois a aplicação pode criá-lo automaticamente).
+3. Verifique se as credenciais no arquivo `application.properties` correspondem às suas configurações:
+
+```properties
+spring.datasource.username=root
+spring.datasource.password=root
+```
+
+## Executar o Backend (Spring Boot)
+
+1. Navegue até a pasta raiz do projeto backend.
+2. Execute o seguinte comando para compilar e iniciar o servidor:
+
+```sh
+mvn spring-boot:run
+```
+
+3. O servidor será iniciado na porta **8080**.
+
+## Configurar e Executar o Frontend (Next.js)
+
+1. Navegue até a pasta raiz do projeto frontend.
+2. Instale as dependências:
+
+```sh
+npm install
+```
+
+3. Configure a variável de ambiente para apontar para o backend:
+    - Crie um arquivo `.env.local` na raiz do projeto com o seguinte conteúdo:
+
+```sh
+NEXT_PUBLIC_API_URL=http://localhost:8080
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```sh
+npm run dev
+```
+
+5. O frontend estará disponível em [http://localhost:3000](http://localhost:3000).
+
+Agora você deve ter a aplicação **FitMove** rodando com o frontend e backend integrados! 🚀
