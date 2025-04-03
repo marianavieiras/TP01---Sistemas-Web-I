@@ -46,9 +46,9 @@ export default function EquipamentosPage() {
         itemId: equipment.id,
         nome: equipment.nome,
         imagem: equipment.imagem || "/placeholder.svg?height=100&width=100",
-        preco: equipment.precoDiario,
+        preco: equipment.precoMensal,
         quantidade: 1,
-        periodo: "diario",
+        periodo: "mês",
         tipo: "equipamento",
       }
 
@@ -166,9 +166,6 @@ export default function EquipamentosPage() {
                   <div className="mt-4 text-center">
                     <h3 className="font-medium">{item.nome}</h3>
                     <div className="flex justify-center gap-4 mt-1">
-                      <span className="text-sm">
-                        <span className="font-medium text-primary">R${item.precoDiario?.toFixed(2)}</span>/dia
-                      </span>
                       <span className="text-sm">
                         <span className="font-medium text-primary">R${item.precoMensal?.toFixed(2)}</span>/mês
                       </span>
