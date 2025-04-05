@@ -10,7 +10,7 @@ Este trabalho propõe o desenvolvimento de um sistema para o aluguel de aparelho
 
 ## **1. Tema**
 
-O projeto se concentra no desenvolvimento de um sistema digital para gestão de aluguel de equipamentos fitness, oferecendo praticidade e automação desde a seleção dos aparelhos até a finalização do contrato e entrega.
+O projeto se concentra no desenvolvimento de um sistema digital para gestão de aluguel de equipamentos fitness, oferecendo praticidade e automação desde a seleção dos aparelhos até a entrega.
 
 ## **2. Escopo**
 
